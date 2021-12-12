@@ -3,7 +3,7 @@
 	color : rgb(2, 190, 2);
 }
 
-.pm{
+.mana{
 	font-size: 20px;
 	color: rgb(73, 164, 255);
 }
@@ -107,7 +107,7 @@
 	color: white;
 }
 
-.hero{
+.imageNocta{
 	display: flex;
 	justify-content: flex-end;
 	position:absolute;
@@ -117,7 +117,7 @@
 	height:20%;
 }
 
-.hero2{
+.imageDovah{
 	display: flex;
 	justify-content: flex-end;
 	position:absolute;
@@ -127,7 +127,7 @@
 	height:20%;
 }
 
-.hero3{
+.imageFiriel{
 	display: flex;
 	justify-content: flex-end;
 	position:absolute;
@@ -137,7 +137,7 @@
 	height:20%;
 }
 
-.hero4{
+.imageIota{
 	display: flex;
 	justify-content: flex-end;
 	position:absolute;
