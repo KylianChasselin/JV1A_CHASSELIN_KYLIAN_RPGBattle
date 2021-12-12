@@ -1,4 +1,4 @@
-<html>
+                           <html>
 <!DOCTYPE html>
 <link rel="stylesheet" type="text/css" href="RPGGGGGGG.css">
 <script src="RPGGGGGG.js"async></script>
@@ -11,17 +11,24 @@
 <div class="titre"> tour de :</div>
 		<div class="stat">
 			<div class="name">
-                <div class="joueur">Nocta</div>
-				<div class="joueur">Dovah</div>
-				<div class="joueur">Firiel</div>
-				<div class="joueur">Iota</div>
+                <div class="avant">Nocta</div>
+				<div class="apres">>Nocta</div>
+
+				<div class="avant">Dovah</div>
+				<div class="apres">>Dovah</div>
+
+				<div class="avant">Firiel</div>
+				<div class="apres">>Firiel</div>
+
+				<div class="avant">Iota</div>
+				<div class="apres">>Iota</div>
 			</div>
             
 			<div class="health">
-                <div class="ph">Health:100</div>
-				<div class="ph">Health:150</div>
-				<div class="ph">Health:110</div>
-				<div class="ph">Health:90</div>
+                <div id="phHero1" class="ph">Health:100</div>
+				<div id="phHero2" class="ph">Health:150</div>
+				<div id="phHero3" class="ph">Health:110</div>
+				<div id="phHero4" class="ph">Health:90</div>
 			</div>
 
 			<div class="mana">
@@ -34,9 +41,9 @@
 
         <div class="megaaction">
           <div class="action">	
-              <div class="pa">Attaque</div>
-              <div class="pa">Magie</div>
-              <div class="pa">Défendre</div>
+              <div><button onclick="attack()">-Attaque-</button></div>
+              <div><button onclick="magie()">-Magie-</button></div>
+              <div><button onclick="defense()">-Défendre-</button></div>
           </div>
         </div>
 
@@ -46,13 +53,19 @@
 		<div class="hero2"><img src="hero.png"></div>
 		<div class="hero3"><img src="hero.png"></div>
 		<div class="hero4"><img src="hero.png"></div>
-		<div class="monstre"><img src="monstre.gif"></div>
-		<div class="monstre2"><img src="monstre.gif"></div>
-		<div class="monstre3"><img src="monstre.gif"></div>
 
-
-		<input type="button" id="pa"> 
-	
+		<div class="monstre">
+			<img src="monstre.png" width="100" height="100">
+			<span id= infomonstre>mechant 1 pv = 100</span>
+		</div>
+		<div class="monstre2">
+			<img src="monstre2.png" width="100" height="100">
+		<span id= infomonstre2>mechant 2 pv = 100</span>
+		</div>
+		<div class="monstre3">
+			<img src="monstre3.png" width="100" height="100">
+			<span id= infomonstre3>mechant 3 pv = 100</span>
+		</div>
 
 </body>
 </html>  

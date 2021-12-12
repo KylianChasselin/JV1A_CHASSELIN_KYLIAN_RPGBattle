@@ -1,17 +1,17 @@
 .ph{
 	font-size: 20px;
-	color : green;
+	color : rgb(2, 190, 2);
 }
 
 .pm{
 	font-size: 20px;
-	color: dodgerblue;
+	color: rgb(73, 164, 255);
 }
 
 .pa{
 	font-size: 20px;
 	font-weight: bold;
-	color: white;
+	color: rgb(255, 255, 255);
 }
 
 .pde{
@@ -37,7 +37,7 @@
 }
 
 .action{
-	border: 1px solid darkred;
+	border: 1px solid rgb(255, 0, 0);
 	position: fixed;
 	bottom: 0;
 	right:0;
@@ -45,10 +45,9 @@
 	align-items: center;
 	flex-direction: column;
 	justify-content: space-around;
-	background-color: rgba(255, 102, 102, 0.8);
+	background-color: rgba(155, 0, 0, 0.8);
 	height: 20%;
 	width: 30%;
-
 }
 
 .info{
@@ -58,46 +57,51 @@
 	right: 0;
 	display: flex;
 	align-items: flex-start;
-	background-color: rgba(255, 102, 102, 0.8);
+	background-color: rgba(199, 0, 0, 0.8);
 	height: 10%;
 	width: 30%;
 }
 
 .Mana{
-	border: 1px solid darkblue;
+	border: 1px solid rgb(255, 0, 0);
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	background-color: rgba(255, 102, 102, 0.8);
+	background-color: rgba(109, 0, 0, 0.8);
 	height: 50%;
 	width: 50%;
 }
 
 .health{
-	border: 1px solid darkgreen;
+	border: 1px solid rgb(255, 0, 0);
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	background-color: rgba(255, 102, 102,0.8);
+	background-color: rgba(87, 0, 0, 0.8);
 	height: 50%;
 	width: 50%;
 }
 
 .name{
-	border: 1px solid black;
+	border: 1px solid rgb(255, 0, 0);
 	display: flex;
 	justify-content: space-around;
 	color: white;
-	background-color: rgba(255, 102, 102, 0.8);
+	background-color: rgba(100, 0, 0, 0.8);
 	height: 50%;
 	width: 50%;
 }
 
+.apres{
+	display: none;
+
+}
+
 .titre{
-	border: 1px solid darkblue;
+	border: 1px solid rgb(0, 24, 54);
 	display: flex;
 	justify-content: space-around;
-	background-color: rgba(255, 102, 102, 0.8);
+	background-color: rgba(201, 0, 0, 0.8);
 	height: 6%;
 	width: 10%;
 	color: white;
@@ -106,9 +110,9 @@
 .hero{
 	display: flex;
 	justify-content: flex-end;
-	position:fixed;
-	top:200;
-	right: 50;
+	position:absolute;
+	top:25%;
+	right: 10%;
 	width:10%;
 	height:20%;
 }
@@ -116,9 +120,9 @@
 .hero2{
 	display: flex;
 	justify-content: flex-end;
-	position:fixed;
-	top:400;
-	right: 50;
+	position:absolute;
+	top:50%;
+	right: 20%;
 	width:10%;
 	height:20%;
 }
@@ -126,9 +130,9 @@
 .hero3{
 	display: flex;
 	justify-content: flex-end;
-	position:fixed;
-	top:250;
-	right: 200;
+	position:absolute;
+	top:30%;
+	right: 20%;
 	width:10%;
 	height:20%;
 }
@@ -136,9 +140,9 @@
 .hero4{
 	display: flex;
 	justify-content: flex-end;
-	position:fixed;
-	top:450;
-	right: 200;
+	position:absolute;
+	top:60%;
+	right: 10%;
 	width:10%;
 	height:20%;
 }
@@ -147,28 +151,98 @@
 	display:flex;
 	justify-content: flex-start;
 	position:fixed;
-	top: 275;
-	left: 200;
+	top: 15%;
+	left: 20%;
+	width: 100;
+}
+
+#infomonstre{
+	display: flex;
+	position : absolute;
+	left : 70px; 
+	top : 0px; 
+	color: #303030; 
+	padding: 5px;
+	width: 80px;
+	height: 35px;
+	margin: 10px;
+	border: 3px solid rgb(110, 0, 0);
+	background-color: rgb(255, 146, 146);
+	visibility: hidden;
+}
+.monstre{
+	position: relative;
+}
+
+.monstre:hover #infomonstre{
+	visibility: visible;
 }
 
 .monstre2{
 	display:flex;
 	justify-content: flex-start;
 	position:fixed;
-	top: 400;
-	left: 400;
+	top: 25%;
+	left: 30%;
+	width: 100;
+}
+
+#infomonstre2{
+	display: flex;
+	position : absolute;
+	left : 70px; 
+	top : 0px; 
+	color: #303030; 
+	padding: 5px;
+	width: 80px;
+	height: 35px;
+	margin: 10px;
+	border: 3px solid rgb(110, 0, 0);
+	background-color: rgb(255, 146, 146);
+	visibility: hidden;
+}
+.monstre2{
+	position: relative;
+}
+
+.monstre2:hover #infomonstre2{
+	visibility: visible;
 }
 
 .monstre3{
 	display:flex;
 	justify-content: flex-start;
 	position:fixed;
-	top: 500;
-	left: 200;
+	top: 35%;
+	left: 15%;
+	width: 100;
+}
+
+#infomonstre3{
+	display: flex;
+	position : absolute;
+	left : 70px; 
+	top : 0px; 
+	color: #303030; 
+	padding: 5px;
+	width: 80px;
+	height: 35px;
+	margin: 10px;
+	border: 3px solid rgb(110, 0, 0);
+	background-color: rgb(255, 146, 146);
+	visibility: hidden;
+}
+
+.monstre3{
+	position: relative;
+}
+
+.monstre3:hover #infomonstre3{
+	visibility: visible;
 }
 
 body{
 	background-image: url(background.png);
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 }
